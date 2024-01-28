@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Josefin+Slab&family=Miniver&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Miniver&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+.profileimage img{
+    height: 510px;
+    width: 380px;
+    margin-top: 100px;
+    border-radius:50%;
+    margin-right: 200px;
+  /* filter: blur(3px); */
+}
+.navbarcontainer{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+    height: 70px;
+    width: 100vw;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.myname{
+    font-size: 40px;
+  
+    color: red;
+    font-weight:700;
+    font-family: Brandon-reg,sans-serif;
+}
+.myfathername{
+    font-size: 40px;
+    font-weight:700;
+    color: blue;
+    font-family: Brandon-reg,sans-serif;
+    
+}
+
+.navbarcontainer-left{
+    display: flex;
+    flex-direction:row;
+    margin-left: 70px;
+   
+}
+.navbarcontainer-right p:hover{
+    color: orange;
+
+}
+.navbarcontainer-left p{
+ 
+     margin-top: 15px;
+     cursor: pointer;
+} 
+.navbarcontainer-right p{
+     margin-left: 30px;
+     margin-top: 15px;
+     cursor: pointer;
+} 
+.navbarcontainer-right{
+    display: flex;
+    margin-right: 30px;
+    flex-direction:row;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.portfoliocontainer{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(30deg, rgba(130, 0, 159, 0) 50%, rgba(129, 2, 160, 0.01) 53.33%, rgba(126, 8, 162, 0.03) 56.66%, rgba(120, 20, 166, 0.08) 59.99%, rgba(114, 34, 171, 0.13) 63.32%, rgba(106, 50, 177, 0.19) 66.65%, rgba(96, 70, 184, 0.26) 69.98%, rgba(87, 90, 191, 0.34) 73.31%, rgba(77, 110, 198, 0.41) 76.64%, rgba(68, 130, 205, 0.49) 79.97%, rgba(58, 150, 212, 0.56) 83.3%, rgba(50, 166, 217, 0.62) 86.63%, rgba(44, 180, 222, 0.68) 89.96%, rgba(38, 192, 226, 0.72) 93.29%, rgba(35, 198, 228, 0.74) 96.62%, rgba(34, 200, 229, 0.75) 100%);
+}
+.portfoliocontainerbox1-left p{
+   color: orange;
+   
+   margin-top: 30px;
+   font-size: 29px;
+   font-family: 'Hina Mincho', serif;
+}
+.portfoliocontainerbox1-left h1{
+     font-size: 70px;
+     margin-top: 200px;
+     font-family: 'Hina Mincho', serif;
+}
+.portfoliocontainerbox1-left{
+    /* background: red; */
+    width: 700px;
+    margin-left: 100px;
+}
+.iconbuttons{
+    width: 150px;
+    height: 100px;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.iconbutton{
+    margin-left: 10px;
+}
+.iconbuttons a{
+    font-size: 30px;
+}
+.portfoliodetailscontents1{
+    height: 1015px;
+    width: 100vw;
+    background-color: rgb(195, 184, 184);
+   
+}
+.portfoliodetailscontents1 h1{
+    margin-left: 50px;
+}
+.portfoliodetailscontents-box1{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.portfoliodetailscontents-box1 img{
+    margin-top: 10px;
+    margin-left: 100px;
+   height: 250px;
+   width: 400px;
+   border-radius: 2px;
+   margin-bottom: 20px;
+}
+.qxPNJf {
+    vertical-align: baseline;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 0 1px;
+    background-size: 14px 14px;
+    background-image: url(//maps.gstatic.com/consumer/images/icons/2x/ic_star_rate_14.png);
+    background-repeat: no-repeat;
+    -ms-high-contrast-adjust: none;
+}
+.stars{
+    margin-left: 40px;
+}
+.pCqY8 {
+    background-image: url(//maps.gstatic.com/consumer/images/icons/2x/ic_star_rate_half_14.png);
+}
+.degreedetails
+{
+display: flex;
+flex-direction: row;
+border-bottom: 2px solid black;
+}
+.degreedetailsright span{
+
+    font-size: 20px;
+    font-family: 'Hina Mincho', serif;
+}
+.degreedetailsright{
+    margin-left: 100px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.sslcdetails
+{
+display: flex;
+border-bottom: 2px solid black;
+flex-direction: row;
+}
+.sslcdetailsright span{
+    font-size: 20px;
+    font-family: 'Hina Mincho', serif;
+}
+.sslcdetailsright{
+    margin-left: 100px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.hsedetails
+{
+display: flex;
+border-bottom: 2px solid black;
+flex-direction: row;
+}
+.locationicon{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.hsedetailsright p{
+
+    font-family: 'Hina Mincho', serif;
+    font-size: 20px;
+
+}
+.hsedetailsright span{
+    font-family: 'Hina Mincho', serif;
+    font-size: 20px;
+}
+.hsedetailsright{
+    margin-left: 100px;
+    margin-top: 10px;
+    font-family: 'Hina Mincho', serif;
+    display: flex;
+    flex-direction: column;
+}
+.portfoliodetailscontents2{
+    display: flex;
+    flex-direction:column;
+    width: 100vw;
+    height: 715px;
+    background-color: rgb(121, 139, 155);
+}
+.portfoliodetailscontents2-box{
+    display: flex;
+    flex-direction: row;
+}
+.portfoliodetailscontents3{
+    display: flex;
+    flex-direction:column;
+    width: 100vw;
+    height: 1105px;
+    background-color: rgb(179, 130, 173);
+}
+.portfoliodetailscontents3-box{
+    display: flex;
+    flex-direction: row;
+}
+.portfoliodetailscontents3box p{
+width: 600px;
+margin-top: 30px;
+margin-left: 80px;
+}
+.portfoliodetailscontents3box p{
+
+    font-family: 'Hina Mincho', serif;
+    font-size: 23px;
+}
+.portfoliodetailscontents3box img{
+    margin-top: 10px;
+    margin-left: 200px;
+     height: 230px;
+
+     margin-bottom: 20px;
+     border-radius: 2px;
+     width: 400px;
+}
+.portfoliodetailscontents3box{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.personalinfoicons p{
+  font-size: 20px;
+}
+.personalinfoicons{
+    height: 100px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: -90px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.portfoliodetailscontents2left{
+  width: 50%;
+margin-top: 70px;
+}
+.portfoliodetailscontents2left p{
+
+margin-left: 50px;
+font-size: 40px;
+}
+.portfoliodetailscontents2right{
+margin-top: 70px;
+font-size: 40px;
+
+}
+.degreepercentage{
+    /* margin-right: 20px; */
+    width: 465px;
+}
+.degreepercentage h1{
+    color: green;
+    font-size: 150px;    
+}
+.hsepercentage h1{
+    color: green;
+    font-size: 150px;    
+}
+.hsepercentage{
+   width: 400px;
+   margin-left: 60px;
+
+}
+.sslcpercentage h1{
+    color: green;
+    font-size: 150px; 
+    margin-right: 10px;   
+}
+.sslcpercentage{
+   width: 445px;
+   margin-left: 20px;
+
+}
